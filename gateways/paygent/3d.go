@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/qor/gomerchant"
+	"github.com/conku/gomerchant"
 )
 
 type SecureCodeParams struct {

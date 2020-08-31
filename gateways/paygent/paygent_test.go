@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/conku/gomerchant"
+	"github.com/conku/gomerchant/gateways/paygent"
+	"github.com/conku/gomerchant/tests"
 	"github.com/jinzhu/configor"
-	"github.com/qor/gomerchant"
-	"github.com/qor/gomerchant/gateways/paygent"
-	"github.com/qor/gomerchant/tests"
 )
 
 var Paygent *paygent.Paygent
