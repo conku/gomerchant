@@ -92,7 +92,7 @@ type Transaction struct {
 	Paid      bool        // authorized OR captured
 	Cancelled bool        // cancelled
 	Status    string      // status code from paygent
-	CreatedAt *time.Time  // payment created time
+	CreatedAt int64  // payment created time
 	Params                // extra params
 }
 ```
