@@ -1,7 +1,5 @@
 package gomerchant
 
-import "time"
-
 type Transaction struct {
 	ID        string
 	Amount    int
@@ -10,6 +8,6 @@ type Transaction struct {
 	Paid      bool // if authorized or captured
 	Cancelled bool
 	Status    string
-	CreatedAt *time.Time
+	CreatedAt *int64
 	Params
 }

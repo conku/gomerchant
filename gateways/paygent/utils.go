@@ -46,7 +46,7 @@ func extractTransactionFromPaygentResponse(params Response) (transaction gomerch
 
 	if v, ok := params.Get("payment_init_date"); ok {
 		if t, err := time.ParseInLocation("20060102150405", fmt.Sprint(v), PaygentServerTimeZone); err == nil {
-			transaction.CreatedAt = &t
+			transaction.CreatedAt = &t.Unix()
 		}
 	}
 
