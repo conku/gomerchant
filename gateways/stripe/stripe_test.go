@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/conku/configor"
 	"github.com/conku/gomerchant/gateways/stripe"
 	"github.com/conku/gomerchant/tests"
-	"github.com/jinzhu/configor"
 	"github.com/stripe/stripe-go/customer"
 )
 
